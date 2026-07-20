@@ -1,0 +1,2564 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Al Nasar Movers — Professional furniture moving, packing, and relocation services across the UAE. Trusted by 25,000+ customers in Abu Dhabi, Dubai, Sharjah, Ajman, Al Ain & more.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Al Nasar Movers | Premium Moving Services UAE">
+  <meta property="og:site_name" content="AL NASAR MOVERS">
+  <meta property="og:description"
+    content="Professional furniture moving, packing, and relocation services across the UAE.">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Al Nasar Movers | Premium Moving Services UAE</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    /* ================================================================
+   AL NASAR MOVERS — Premium Brand Stylesheet
+   Palette: navy #0f0a2e · gold #fab803 · white #fff · light #f5f4f9
+================================================================ */
+
+    :root {
+      --navy: #0f0a2e;
+      --navy-mid: #1a1248;
+      --navy-light: #25195a;
+      --gold: #fab803;
+      --gold-light: #fdd44f;
+      --gold-dark: #d49c00;
+      --white: #ffffff;
+      --light: #f5f4f9;
+      --light-warm: #faf8f2;
+      --text: #2d2d2d;
+      --text-light: #6c757d;
+      --radius: 12px;
+      --radius-lg: 20px;
+      --radius-xl: 28px;
+      --shadow-sm: 0 2px 8px rgba(15, 10, 46, .06);
+      --shadow: 0 4px 24px rgba(15, 10, 46, .10);
+      --shadow-lg: 0 12px 48px rgba(15, 10, 46, .15);
+      --shadow-gold: 0 4px 20px rgba(250, 184, 3, .30);
+      --transition: .35s cubic-bezier(.4, 0, .2, 1);
+    }
+
+    /* ── Reset & Base ────────────────────────────────────────────── */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: color var(--transition);
+    }
+
+    ul,
+    ol {
+      list-style: none;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    .container-fluid {
+      width: 100%;
+      padding: 0 1.5rem;
+    }
+
+    /* ── Utility ─────────────────────────────────────────────────── */
+    .section-label {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      font-family: 'Inter', sans-serif;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+
+    .section-label::before {
+      content: '';
+      width: 32px;
+      height: 2px;
+      background: var(--gold);
+      border-radius: 2px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: .5rem;
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: .9rem;
+      padding: .85rem 2rem;
+      border-radius: 50px;
+      border: 2px solid transparent;
+      cursor: pointer;
+      transition: all var(--transition);
+      white-space: nowrap;
+      text-decoration: none;
+    }
+
+    .btn-gold {
+      background: var(--gold);
+      color: var(--navy);
+      border-color: var(--gold);
+      box-shadow: var(--shadow-gold);
+    }
+
+    .btn-gold:hover {
+      background: var(--gold-dark);
+      border-color: var(--gold-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba(250, 184, 3, .45);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--white);
+      border-color: rgba(255, 255, 255, .3);
+    }
+
+    .btn-outline:hover {
+      background: var(--white);
+      color: var(--navy);
+      border-color: var(--white);
+      transform: translateY(-2px);
+    }
+
+    .btn-navy {
+      background: var(--navy);
+      color: var(--white);
+      border-color: var(--navy);
+    }
+
+    .btn-navy:hover {
+      background: var(--navy-mid);
+      border-color: var(--navy-mid);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .btn-whatsapp {
+      background: #25D366;
+      color: #fff;
+      border-color: #25D366;
+      box-shadow: 0 4px 16px rgba(37, 211, 102, .35);
+    }
+
+    .btn-whatsapp:hover {
+      background: #1da851;
+      border-color: #1da851;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(37, 211, 102, .5);
+    }
+
+    /* Reveal animation */
+    .reveal {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: opacity .8s cubic-bezier(.4, 0, .2, 1), transform .8s cubic-bezier(.4, 0, .2, 1);
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ── NAVBAR ─────────────────────────────────────────────────── */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background: rgba(15, 10, 46, .85);
+      backdrop-filter: blur(20px) saturate(180%);
+      -webkit-backdrop-filter: blur(20px) saturate(180%);
+      border-bottom: 1px solid rgba(250, 184, 3, .15);
+      transition: background var(--transition), box-shadow var(--transition);
+    }
+
+    .navbar.scrolled {
+      background: rgba(15, 10, 46, .97);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, .3);
+    }
+
+    .navbar-inner {
+      display: flex;
+      align-items: center;
+      height: 72px;
+      gap: 1rem;
+    }
+
+    .navbar-logo {
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .navbar-logo img {
+      height: 42px;
+      width: auto;
+    }
+
+    .navbar-logo-text {
+      margin-left: .75rem;
+      padding-left: .75rem;
+      border-left: 1px solid rgba(255, 255, 255, .15);
+    }
+
+    .navbar-logo-text span:first-child {
+      display: block;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: var(--gold);
+      letter-spacing: .5px;
+      line-height: 1.2;
+    }
+
+    .navbar-logo-text span:last-child {
+      display: block;
+      font-size: .6rem;
+      font-weight: 600;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, .55);
+      line-height: 1;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      margin-left: 2rem;
+    }
+
+    .nav-links a {
+      position: relative;
+      display: flex;
+      align-items: center;
+      padding: 0 1.25rem;
+      height: 72px;
+      font-size: .875rem;
+      font-weight: 600;
+      color: rgba(255, 255, 255, .8);
+      letter-spacing: .3px;
+      transition: color var(--transition);
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%) scaleX(0);
+      width: calc(100% - 1.5rem);
+      height: 3px;
+      background: var(--gold);
+      border-radius: 3px 3px 0 0;
+      transition: transform var(--transition);
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--gold);
+    }
+
+    .nav-links a:hover::after,
+    .nav-links a.active::after {
+      transform: translateX(-50%) scaleX(1);
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      margin-left: auto;
+    }
+
+    .nav-phone {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      color: rgba(255, 255, 255, .85);
+      font-size: .85rem;
+      font-weight: 600;
+      padding: .5rem 1rem;
+      border-radius: 50px;
+      background: rgba(255, 255, 255, .06);
+      border: 1px solid rgba(255, 255, 255, .08);
+      transition: all var(--transition);
+    }
+
+    .nav-phone:hover {
+      background: rgba(250, 184, 3, .15);
+      border-color: rgba(250, 184, 3, .3);
+      color: var(--gold);
+    }
+
+    .nav-phone i {
+      color: var(--gold);
+    }
+
+    .nav-cta {
+      padding: .55rem 1.5rem;
+      font-size: .82rem;
+    }
+
+    /* Mobile hamburger */
+    .nav-toggle {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 8px;
+      background: none;
+      border: none;
+      margin-left: auto;
+    }
+
+    .nav-toggle span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: rgba(255, 255, 255, .9);
+      border-radius: 2px;
+      transition: all .3s ease;
+    }
+
+    .nav-toggle.active span:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .nav-toggle.active span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .nav-toggle.active span:nth-child(3) {
+      transform: rotate(-45deg) translate(5px, -5px);
+    }
+
+    /* Mobile menu overlay */
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      top: 72px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(15, 10, 46, .98);
+      backdrop-filter: blur(20px);
+      z-index: 999;
+      padding: 2rem;
+      flex-direction: column;
+      gap: 0;
+      overflow-y: auto;
+    }
+
+    .mobile-menu.open {
+      display: flex;
+    }
+
+    .mobile-menu a {
+      display: flex;
+      align-items: center;
+      padding: 1.15rem 0;
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: rgba(255, 255, 255, .85);
+      border-bottom: 1px solid rgba(255, 255, 255, .06);
+      transition: color var(--transition), padding var(--transition);
+    }
+
+    .mobile-menu a:hover {
+      color: var(--gold);
+      padding-left: .5rem;
+    }
+
+    .mobile-menu .mobile-cta {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .mobile-menu .mobile-cta .btn {
+      width: 100%;
+      justify-content: center;
+    }
+
+    /* ── HERO ────────────────────────────────────────────────────── */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      background: var(--navy);
+      overflow: hidden;
+      padding-top: 72px;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    }
+
+    .hero-bg img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: .2;
+      filter: blur(2px);
+    }
+
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg,
+          rgba(15, 10, 46, .92) 0%,
+          rgba(15, 10, 46, .75) 50%,
+          rgba(15, 10, 46, .88) 100%);
+      z-index: 1;
+    }
+
+    .hero-pattern {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      opacity: .04;
+      background-image:
+        radial-gradient(circle at 25% 25%, var(--gold) 1px, transparent 1px),
+        radial-gradient(circle at 75% 75%, var(--gold) 1px, transparent 1px);
+      background-size: 60px 60px;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 3;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+      padding: 4rem 0;
+    }
+
+    .hero-text {
+      max-width: 560px;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      background: rgba(250, 184, 3, .12);
+      border: 1px solid rgba(250, 184, 3, .25);
+      border-radius: 50px;
+      padding: .45rem 1.25rem;
+      margin-bottom: 1.75rem;
+      animation: fadeInDown .8s ease both;
+    }
+
+    .hero-badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--gold);
+      animation: pulse-dot 2s ease infinite;
+    }
+
+    @keyframes pulse-dot {
+
+      0%,
+      100% {
+        box-shadow: 0 0 0 0 rgba(250, 184, 3, .4);
+      }
+
+      50% {
+        box-shadow: 0 0 0 8px rgba(250, 184, 3, 0);
+      }
+    }
+
+    .hero-badge span {
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+
+    .hero-title {
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      color: var(--white);
+      margin-bottom: 1.5rem;
+      animation: fadeInUp .8s ease both .2s;
+      opacity: 0;
+    }
+
+    .hero-title .highlight {
+      color: var(--gold);
+      display: block;
+    }
+
+    .hero-subtitle {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 400;
+      color: rgba(255, 255, 255, .7);
+      line-height: 1.8;
+      margin-bottom: 2.5rem;
+      animation: fadeInUp .8s ease both .4s;
+      opacity: 0;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      animation: fadeInUp .8s ease both .6s;
+      opacity: 0;
+    }
+
+    .hero-stats {
+      display: flex;
+      gap: 2.5rem;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255, 255, 255, .08);
+      animation: fadeInUp .8s ease both .8s;
+      opacity: 0;
+    }
+
+    .hero-stat-value {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--gold);
+      line-height: 1;
+    }
+
+    .hero-stat-label {
+      font-size: .78rem;
+      font-weight: 500;
+      color: rgba(255, 255, 255, .5);
+      margin-top: .35rem;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+
+    .hero-images {
+      position: relative;
+      height: 520px;
+      animation: fadeInRight 1s ease both .4s;
+      opacity: 0;
+    }
+
+    .hero-img-main {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 80%;
+      height: 80%;
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .hero-img-main img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .hero-img-secondary {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 55%;
+      height: 55%;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 4px solid var(--navy);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .hero-img-secondary img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .hero-img-badge {
+      position: absolute;
+      top: 50%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      background: var(--gold);
+      color: var(--navy);
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 32px rgba(250, 184, 3, .4);
+      z-index: 5;
+      animation: float 4s ease-in-out infinite;
+    }
+
+    .hero-img-badge .badge-number {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      font-weight: 900;
+      line-height: 1;
+    }
+
+    .hero-img-badge .badge-text {
+      font-size: .55rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 2px;
+    }
+
+    @keyframes float {
+
+      0%,
+      100% {
+        transform: translate(-50%, -50%) translateY(0);
+      }
+
+      50% {
+        transform: translate(-50%, -50%) translateY(-12px);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInRight {
+      from {
+        opacity: 0;
+        transform: translateX(40px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    /* ── MARQUEE BANNER ──────────────────────────────────────────── */
+    .marquee-banner {
+      background: var(--gold);
+      color: var(--navy);
+      overflow: hidden;
+      padding: .8rem 0;
+      position: relative;
+    }
+
+    .marquee-track {
+      display: flex;
+      animation: marquee 35s linear infinite;
+      width: max-content;
+    }
+
+    .marquee-item {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: .85rem;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+      white-space: nowrap;
+      padding: 0 2.5rem;
+    }
+
+    .marquee-item i {
+      font-size: .6rem;
+      opacity: .5;
+    }
+
+    @keyframes marquee {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
+    /* ── SECTION: About Preview ──────────────────────────────────── */
+    .about-preview {
+      padding: 7rem 0;
+      background: var(--white);
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5rem;
+      align-items: center;
+    }
+
+    .about-images {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      position: relative;
+    }
+
+    .about-img {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      transition: transform var(--transition);
+    }
+
+    .about-img:hover {
+      transform: translateY(-4px);
+    }
+
+    .about-img:first-child {
+      grid-column: 1 / -1;
+    }
+
+    .about-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .about-img:first-child img {
+      height: 300px;
+    }
+
+    .about-img:not(:first-child) img {
+      height: 200px;
+    }
+
+    .about-text h2 {
+      font-size: clamp(1.8rem, 3vw, 2.6rem);
+      color: var(--navy);
+      margin-bottom: 1.5rem;
+    }
+
+    .about-text p {
+      color: var(--text-light);
+      font-size: 1.05rem;
+      line-height: 1.8;
+      margin-bottom: 1.5rem;
+    }
+
+    .about-features {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+
+    .about-feature {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .about-feature-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: rgba(250, 184, 3, .12);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .about-feature-icon i {
+      color: var(--gold-dark);
+      font-size: 1rem;
+    }
+
+    .about-feature span {
+      font-weight: 600;
+      font-size: .95rem;
+      color: var(--text);
+    }
+
+    /* ── SECTION: Services ──────────────────────────────────────── */
+    .services {
+      padding: 7rem 0;
+      background: var(--light);
+      position: relative;
+    }
+
+    .services-header {
+      text-align: center;
+      max-width: 640px;
+      margin: 0 auto 4rem;
+    }
+
+    .services-header h2 {
+      font-size: clamp(1.8rem, 3vw, 2.6rem);
+      color: var(--navy);
+      margin-bottom: 1rem;
+    }
+
+    .services-header p {
+      color: var(--text-light);
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.75rem;
+    }
+
+    .service-card {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: transform var(--transition), box-shadow var(--transition);
+      border: 1px solid rgba(15, 10, 46, .04);
+    }
+
+    .service-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .service-card-img {
+      position: relative;
+      height: 220px;
+      overflow: hidden;
+    }
+
+    .service-card-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .6s cubic-bezier(.4, 0, .2, 1);
+    }
+
+    .service-card:hover .service-card-img img {
+      transform: scale(1.08);
+    }
+
+    .service-card-img .service-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(15, 10, 46, .6) 0%, transparent 60%);
+    }
+
+    .service-card-body {
+      padding: 1.75rem;
+    }
+
+    .service-card-body h3 {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: .75rem;
+    }
+
+    .service-card-body p {
+      color: var(--text-light);
+      font-size: .9rem;
+      line-height: 1.7;
+      margin-bottom: 1.25rem;
+    }
+
+    .service-link {
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+      font-size: .85rem;
+      font-weight: 700;
+      color: var(--gold-dark);
+      transition: gap var(--transition), color var(--transition);
+    }
+
+    .service-link:hover {
+      color: var(--navy);
+      gap: .75rem;
+    }
+
+    /* ── SECTION: Parallax CTA ──────────────────────────────────── */
+    .parallax-cta {
+      position: relative;
+      padding: 8rem 0;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .parallax-cta-bg {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    }
+
+    .parallax-cta-bg img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .parallax-cta-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg,
+          rgba(15, 10, 46, .88) 0%,
+          rgba(15, 10, 46, .78) 100%);
+      z-index: 1;
+    }
+
+    .parallax-cta .container {
+      position: relative;
+      z-index: 2;
+    }
+
+    .parallax-cta h2 {
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      color: var(--white);
+      margin-bottom: 1rem;
+    }
+
+    .parallax-cta .cta-phone {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      font-weight: 800;
+      color: var(--gold);
+      display: block;
+      margin-bottom: 2rem;
+    }
+
+    .parallax-cta p {
+      color: rgba(255, 255, 255, .7);
+      font-size: 1.1rem;
+      max-width: 500px;
+      margin: 0 auto 2.5rem;
+    }
+
+    /* ── SECTION: Stats ──────────────────────────────────────────── */
+    .stats {
+      padding: 6rem 0;
+      background: var(--white);
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+
+    .stats-text h2 {
+      font-size: clamp(1.8rem, 3vw, 2.4rem);
+      color: var(--navy);
+      margin-bottom: 1rem;
+    }
+
+    .stats-text p {
+      color: var(--text-light);
+      font-size: 1.05rem;
+      line-height: 1.8;
+      margin-bottom: 2rem;
+    }
+
+    .stats-numbers {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+
+    .stat-item {
+      padding: 2rem;
+      border-radius: var(--radius-lg);
+      background: var(--light);
+      border: 1px solid rgba(15, 10, 46, .04);
+      text-align: center;
+      transition: transform var(--transition), box-shadow var(--transition);
+    }
+
+    .stat-item:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow);
+    }
+
+    .stat-number {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.8rem;
+      font-weight: 900;
+      color: var(--navy);
+      line-height: 1;
+      margin-bottom: .5rem;
+    }
+
+    .stat-number span {
+      color: var(--gold);
+    }
+
+    .stat-label {
+      font-family: 'Inter', sans-serif;
+      font-size: .82rem;
+      font-weight: 600;
+      color: var(--text-light);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* ── SECTION: Gallery ────────────────────────────────────────── */
+    .gallery {
+      padding: 7rem 0;
+      background: var(--navy);
+      overflow: hidden;
+    }
+
+    .gallery-header {
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto 3.5rem;
+    }
+
+    .gallery-header .section-label {
+      color: var(--gold);
+    }
+
+    .gallery-header .section-label::before {
+      background: var(--gold);
+    }
+
+    .gallery-header h2 {
+      font-size: clamp(1.8rem, 3vw, 2.6rem);
+      color: var(--white);
+      margin-bottom: 1rem;
+    }
+
+    .gallery-header p {
+      color: rgba(255, 255, 255, .6);
+      font-size: 1.05rem;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto auto;
+      gap: 1rem;
+    }
+
+    .gallery-item {
+      border-radius: var(--radius);
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .6s ease;
+      min-height: 220px;
+    }
+
+    .gallery-item::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(15, 10, 46, .5), transparent 60%);
+      opacity: 0;
+      transition: opacity .4s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.08);
+    }
+
+    .gallery-item:hover::after {
+      opacity: 1;
+    }
+
+    .gallery-item:nth-child(1) {
+      grid-column: span 2;
+    }
+
+    .gallery-item:nth-child(1) img {
+      height: 320px;
+    }
+
+    .gallery-item:nth-child(5) {
+      grid-column: span 2;
+    }
+
+    .gallery-item:nth-child(5) img {
+      height: 280px;
+    }
+
+    /* ── SECTION: CEO ────────────────────────────────────────────── */
+    .ceo {
+      padding: 7rem 0;
+      background: var(--light-warm);
+    }
+
+    .ceo-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 4rem;
+      align-items: center;
+    }
+
+    .ceo-image {
+      position: relative;
+    }
+
+    .ceo-image-main {
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .ceo-image-main img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+    }
+
+    .ceo-image-accent {
+      position: absolute;
+      bottom: -20px;
+      right: -20px;
+      width: 200px;
+      height: 200px;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 5px solid var(--light-warm);
+      box-shadow: var(--shadow);
+    }
+
+    .ceo-image-accent img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .ceo-content h2 {
+      font-size: clamp(1.8rem, 3vw, 2.4rem);
+      color: var(--navy);
+      margin-bottom: 1rem;
+    }
+
+    .ceo-content .ceo-name {
+      display: inline-flex;
+      align-items: center;
+      gap: .75rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .ceo-content .ceo-name span {
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--gold-dark);
+    }
+
+    .ceo-content .ceo-name small {
+      font-size: .8rem;
+      color: var(--text-light);
+    }
+
+    .ceo-quote {
+      position: relative;
+      padding: 2rem;
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-sm);
+      border-left: 4px solid var(--gold);
+      margin-bottom: 2rem;
+    }
+
+    .ceo-quote p {
+      font-size: 1.05rem;
+      line-height: 1.8;
+      color: var(--text);
+      font-style: italic;
+    }
+
+    .ceo-quote::before {
+      content: '\201C';
+      position: absolute;
+      top: -.2rem;
+      left: 1.5rem;
+      font-family: 'Playfair Display', serif;
+      font-size: 4rem;
+      color: var(--gold);
+      line-height: 1;
+      opacity: .3;
+    }
+
+    .ceo-values {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .ceo-value {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      padding: 1rem;
+      background: var(--white);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .ceo-value i {
+      color: var(--gold);
+      font-size: 1.1rem;
+    }
+
+    .ceo-value span {
+      font-size: .9rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    /* ── SECTION: CTA Box ────────────────────────────────────────── */
+    .cta-box {
+      padding: 7rem 0;
+      background: var(--white);
+    }
+
+    .cta-card {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      background: var(--navy);
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .cta-card-img {
+      position: relative;
+      min-height: 400px;
+    }
+
+    .cta-card-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .cta-card-body {
+      padding: 4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .cta-card-body h2 {
+      font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+      color: var(--white);
+      margin-bottom: 1.25rem;
+    }
+
+    .cta-card-body p {
+      color: rgba(255, 255, 255, .7);
+      font-size: 1rem;
+      line-height: 1.8;
+      margin-bottom: 2rem;
+    }
+
+    .cta-card-rating {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .cta-card-stars i {
+      color: #f3cc00;
+      font-size: 1.2rem;
+    }
+
+    .cta-card-rating span {
+      font-size: .85rem;
+      color: rgba(255, 255, 255, .6);
+      font-weight: 500;
+    }
+
+    .cta-card-google {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      padding: 1rem 1.5rem;
+      background: rgba(255, 255, 255, .06);
+      border-radius: var(--radius);
+      border: 1px solid rgba(255, 255, 255, .08);
+      margin-bottom: 2rem;
+    }
+
+    .cta-card-google img {
+      height: 32px;
+      width: auto;
+    }
+
+    .cta-card-google span {
+      font-size: .85rem;
+      color: rgba(255, 255, 255, .7);
+    }
+
+    /* ── SECTION: Locations ──────────────────────────────────────── */
+    .locations {
+      padding: 6rem 0;
+      background: var(--light);
+    }
+
+    .locations-header {
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto 3.5rem;
+    }
+
+    .locations-header h2 {
+      font-size: clamp(1.8rem, 3vw, 2.4rem);
+      color: var(--navy);
+      margin-bottom: 1rem;
+    }
+
+    .locations-header p {
+      color: var(--text-light);
+      font-size: 1.05rem;
+    }
+
+    .locations-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+
+    .location-card {
+      position: relative;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      height: 280px;
+      cursor: pointer;
+    }
+
+    .location-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .6s ease;
+    }
+
+    .location-card::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(15, 10, 46, .85), rgba(15, 10, 46, .2) 70%);
+      transition: background .4s ease;
+    }
+
+    .location-card:hover img {
+      transform: scale(1.06);
+    }
+
+    .location-card:hover::after {
+      background: linear-gradient(to top, rgba(15, 10, 46, .9), rgba(15, 10, 46, .35) 70%);
+    }
+
+    .location-card-content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 1.75rem;
+      z-index: 2;
+    }
+
+    .location-card-content h3 {
+      font-size: 1.3rem;
+      color: var(--white);
+      margin-bottom: .35rem;
+    }
+
+    .location-card-content span {
+      font-size: .82rem;
+      font-weight: 500;
+      color: var(--gold);
+      letter-spacing: .5px;
+    }
+
+    /* ── FOOTER ──────────────────────────────────────────────────── */
+    .footer {
+      background: var(--navy);
+      color: rgba(255, 255, 255, .8);
+      padding-top: 5rem;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+      gap: 3rem;
+      padding-bottom: 4rem;
+      border-bottom: 1px solid rgba(255, 255, 255, .08);
+    }
+
+    .footer-brand p {
+      color: rgba(255, 255, 255, .6);
+      font-size: .92rem;
+      line-height: 1.8;
+      margin: 1.25rem 0 1.5rem;
+    }
+
+    .footer-socials {
+      display: flex;
+      gap: .6rem;
+    }
+
+    .footer-socials a {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, .07);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255, 255, 255, .7);
+      font-size: .9rem;
+      transition: all var(--transition);
+    }
+
+    .footer-socials a:hover {
+      background: var(--gold);
+      color: var(--navy);
+      transform: translateY(-3px);
+    }
+
+    .footer-col h4 {
+      font-family: 'Inter', sans-serif;
+      font-size: .82rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1.5rem;
+    }
+
+    .footer-col a {
+      display: block;
+      color: rgba(255, 255, 255, .6);
+      font-size: .9rem;
+      padding: .35rem 0;
+      transition: color var(--transition), padding var(--transition);
+    }
+
+    .footer-col a:hover {
+      color: var(--gold);
+      padding-left: .4rem;
+    }
+
+    .footer-contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: .75rem;
+      margin-bottom: 1rem;
+    }
+
+    .footer-contact-item i {
+      color: var(--gold);
+      margin-top: 3px;
+      width: 16px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+
+    .footer-contact-item span {
+      font-size: .9rem;
+      color: rgba(255, 255, 255, .6);
+      line-height: 1.5;
+    }
+
+    .footer-bottom {
+      padding: 1.5rem 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .footer-bottom span {
+      font-size: .8rem;
+      color: rgba(255, 255, 255, .4);
+    }
+
+    /* ── FLOATING WHATSAPP ───────────────────────────────────────── */
+    #wa-float {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      z-index: 9000;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #25D366;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: .88rem;
+      padding: 14px 22px 14px 18px;
+      border-radius: 50px;
+      box-shadow: 0 6px 28px rgba(37, 211, 102, .45);
+      text-decoration: none;
+      transition: transform .25s ease, box-shadow .25s ease, background .2s ease;
+      animation: wa-pop .6s cubic-bezier(.34, 1.56, .64, 1) both 1.5s;
+      opacity: 0;
+    }
+
+    #wa-float:hover {
+      background: #1da851;
+      transform: translateY(-3px) scale(1.04);
+      box-shadow: 0 10px 36px rgba(37, 211, 102, .55);
+      color: #fff;
+    }
+
+    #wa-float .wa-icon {
+      width: 24px;
+      height: 24px;
+      flex-shrink: 0;
+    }
+
+    #wa-float .wa-pulse {
+      position: absolute;
+      inset: -5px;
+      border-radius: 50px;
+      border: 2px solid rgba(37, 211, 102, .5);
+      animation: wa-ring 2s ease-out infinite;
+    }
+
+    @keyframes wa-pop {
+      from {
+        opacity: 0;
+        transform: translateY(20px) scale(.8);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    @keyframes wa-ring {
+      0% {
+        transform: scale(1);
+        opacity: .7;
+      }
+
+      100% {
+        transform: scale(1.35);
+        opacity: 0;
+      }
+    }
+
+    /* ── RESPONSIVE ──────────────────────────────────────────────── */
+    @media (max-width: 1024px) {
+      .nav-links {
+        display: none;
+      }
+
+      .nav-phone {
+        display: none;
+      }
+
+      .nav-cta {
+        display: none;
+      }
+
+      .nav-toggle {
+        display: flex;
+      }
+
+      .hero-content {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+        text-align: center;
+      }
+
+      .hero-text {
+        max-width: 100%;
+      }
+
+      .hero-actions {
+        justify-content: center;
+      }
+
+      .hero-stats {
+        justify-content: center;
+      }
+
+      .hero-images {
+        height: 380px;
+        max-width: 500px;
+        margin: 0 auto;
+      }
+
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+
+      .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+
+      .cta-card {
+        grid-template-columns: 1fr;
+      }
+
+      .cta-card-img {
+        min-height: 300px;
+      }
+
+      .cta-card-body {
+        padding: 3rem 2rem;
+      }
+
+      .ceo-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+
+      .ceo-image-accent {
+        display: none;
+      }
+
+      .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .locations-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 2.5rem;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .gallery-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .gallery-item:nth-child(1) {
+        grid-column: span 1;
+      }
+
+      .gallery-item:nth-child(1) img {
+        height: 220px;
+      }
+
+      .gallery-item:nth-child(5) {
+        grid-column: span 1;
+      }
+
+      .gallery-item:nth-child(5) img {
+        height: 220px;
+      }
+
+      .locations-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .location-card {
+        height: 240px;
+      }
+
+      .stats-numbers {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+
+      .ceo-values {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .parallax-cta {
+        padding: 5rem 0;
+      }
+    }
+
+    @media (max-width: 480px) {
+      html {
+        font-size: 15px;
+      }
+
+      .navbar-inner {
+        height: 64px;
+      }
+
+      .hero {
+        padding-top: 64px;
+      }
+
+      .mobile-menu {
+        top: 64px;
+      }
+
+      .navbar-logo-text span:first-child {
+        font-size: .9rem;
+      }
+
+      .navbar-logo img {
+        height: 34px;
+      }
+
+      .hero-images {
+        height: 300px;
+      }
+
+      .hero-img-badge {
+        width: 80px;
+        height: 80px;
+      }
+
+      .hero-img-badge .badge-number {
+        font-size: 1.3rem;
+      }
+
+      .hero-stats {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+      }
+
+      .about-preview {
+        padding: 4rem 0;
+      }
+
+      .services {
+        padding: 4rem 0;
+      }
+
+      .gallery {
+        padding: 4rem 0;
+      }
+
+      .ceo {
+        padding: 4rem 0;
+      }
+
+      .cta-box {
+        padding: 4rem 0;
+      }
+
+      .locations {
+        padding: 4rem 0;
+      }
+
+      .stats {
+        padding: 4rem 0;
+      }
+
+      .stat-item {
+        padding: 1.5rem 1rem;
+      }
+
+      .stat-number {
+        font-size: 2rem;
+      }
+
+      .cta-card-body {
+        padding: 2rem 1.5rem;
+      }
+
+      #wa-float {
+        bottom: 16px;
+        right: 16px;
+        padding: 12px 16px 12px 14px;
+        font-size: .82rem;
+      }
+
+      #wa-float .wa-icon {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ── NAVBAR ────────────────────────────────────────────────── -->
+  <nav class="navbar" id="mainNav">
+    <div class="container">
+      <div class="navbar-inner">
+        <a href="/" class="navbar-logo">
+          <!-- <img src="images/Abu-safi-movers-logo-1.png" alt="Al Nasar Movers Logo" loading="eager"> -->
+          <div class="navbar-logo-text">
+            <span>Al Nasar Movers</span>
+            <span>شركات نقل الأثاث</span>
+          </div>
+        </a>
+
+        <div class="nav-links">
+          <a href="/" class="active">Home</a>
+          <a href="#services">Services</a>
+          <a href="#about">About Us</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="nav-right">
+          <a href="tel:0505878832" class="nav-phone">
+            <i class="fa fa-phone"></i>
+            050 587 8832
+          </a>
+          <a href="https://wa.me/9710505878832" target="_blank" rel="noopener" class="btn btn-gold nav-cta">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
+          </a>
+        </div>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="/">Home</a>
+    <a href="#services">Services</a>
+    <a href="#about">About Us</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+    <div class="mobile-cta">
+      <a href="tel:0505878832" class="btn btn-outline"><i class="fa fa-phone"></i> 050 587 8832</a>
+      <a href="https://wa.me/9710505878832" target="_blank" rel="noopener" class="btn btn-whatsapp"><i
+          class="fa-brands fa-whatsapp"></i> WhatsApp Us</a>
+    </div>
+  </div>
+
+  <!-- ── HERO ──────────────────────────────────────────────────── -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/moving-a-young-couple-3-e1670171915618.jpg" alt="Moving background">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-pattern"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="hero-badge">
+            <span class="hero-badge-dot"></span>
+            <span>Trusted across the UAE</span>
+          </div>
+          <h1 class="hero-title">
+            Moving Excellence
+            <span class="highlight">for Your Next Chapter</span>
+          </h1>
+          <p class="hero-subtitle">
+            Our moving solutions combine efficiency with customer care, creating experiences that ease your transition
+            and support your relocation goals across all Emirates.
+          </p>
+          <div class="hero-actions">
+            <a href="https://wa.me/9710505878832" target="_blank" rel="noopener" class="btn btn-gold">
+              <i class="fa-brands fa-whatsapp"></i> Get Free Quote
+            </a>
+            <a href="#services" class="btn btn-outline">
+              Our Services <i class="fa fa-arrow-right"></i>
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <div class="hero-stat-value">25K+</div>
+              <div class="hero-stat-label">Moves Completed</div>
+            </div>
+            <div>
+              <div class="hero-stat-value">90%</div>
+              <div class="hero-stat-label">Satisfaction Rate</div>
+            </div>
+            <div>
+              <div class="hero-stat-value">7</div>
+              <div class="hero-stat-label">Emirates Covered</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-images">
+          <div class="hero-img-main">
+            <img src="images/two-movers-in-uniform-transporting-couch-in-apartment.jpg"
+              alt="Professional movers transporting furniture">
+          </div>
+          <div class="hero-img-secondary">
+            <img
+              src="images/packaging-the-box-two-young-movers-in-blue-uniform-working-indoors-in-the-room-e1670242755802.jpg"
+              alt="Professional packing service">
+          </div>
+          <div class="hero-img-badge">
+            <span class="badge-number">10+</span>
+            <span class="badge-text">Years Exp.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── MARQUEE BANNER ────────────────────────────────────────── -->
+  <div class="marquee-banner">
+    <div class="marquee-track">
+      <span class="marquee-item"><i class="fa fa-circle"></i> Furniture Moving</span>
+      <span class="marquee-item"><i class="fa fa-circle"></i> Office Relocation</span>
+      <span class="marquee-item"><i class="fa fa-circle"></i> Packing & Unpacking</span>
+      <span class="marquee-item"><i class="fa fa-circle"></i> Villa Transfer</span>
+      <span class="marquee-item"><i class="fa fa-circle"></i> Storage Services</span>
+      <span class="marquee-item"><i class="fa fa-circle"></i> Furniture Installation</span>
+      <span class="marquee-item"><i class="fa fa-circle"></i> Abu Dhabi</span>
+      <span class="marquee-item"><i class="fa fa-circle"></i> Dubai</span>
+      <span class="marquee-item"><i class="fa fa-circle"></i> Sharjah</span>
+      <span class="marquee-item"><i class="fa fa-circle"></i> Ajman</span>
+      <!-- Duplicate for seamless loop -->
+      <span class="marquee-item"><i class="fa fa-circle"></i> Furniture Moving</span>
+      <span class="marquee-item"><i class="fa fa-circle"></i> Office Relocation</span>
+      <span class="marquee-item"><i class="fa fa-circle"></i> Packing & Unpacking</span>
+      <span class="marquee-item"><i class="fa fa-circle"></i> Villa Transfer</span>
+      <span class="marquee-item"><i class="fa fa-circle"></i> Storage Services</span>
+      <span class="marquee-item"><i class="fa fa-circle"></i> Furniture Installation</span>
+      <span class="marquee-item"><i class="fa fa-circle"></i> Abu Dhabi</span>
+      <span class="marquee-item"><i class="fa fa-circle"></i> Dubai</span>
+      <span class="marquee-item"><i class="fa fa-circle"></i> Sharjah</span>
+      <span class="marquee-item"><i class="fa fa-circle"></i> Ajman</span>
+    </div>
+  </div>
+
+  <!-- ── ABOUT PREVIEW ─────────────────────────────────────────── -->
+  <section class="about-preview" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-images reveal">
+          <div class="about-img">
+            <img
+              src="images/two-movers-in-uniform-transporting-cardboard-boxes-and-furniture-in-apartment-e1670221445352.jpg"
+              alt="Movers transporting furniture in apartment">
+          </div>
+          <div class="about-img">
+            <img src="images/boxes-in-new-home-1024x682.jpg" alt="Moving boxes in new home">
+          </div>
+          <div class="about-img">
+            <img src="images/document-to-sign-two-young-movers-in-blue-uniform-working-indoors-in-the-room.jpg"
+              alt="Professional movers with documentation">
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <span class="section-label">About Us</span>
+          <h2>Professional Moving Services Across the UAE</h2>
+          <p>We are a dedicated team of moving professionals committed to making your relocation experience seamless and
+            stress-free. Our services are tailored for individuals and families looking to move locally or long-distance
+            with ease.</p>
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="about-feature-icon"><i class="fa fa-shield-halved"></i></div>
+              <span>Licensed & fully insured movers</span>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon"><i class="fa fa-truck-fast"></i></div>
+              <span>Same-day & next-day service available</span>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon"><i class="fa fa-hand-holding-dollar"></i></div>
+              <span>Lowest price guarantee in the UAE</span>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon"><i class="fa fa-clock"></i></div>
+              <span>Available 24/7 for emergency moves</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-navy">Learn More <i class="fa fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SERVICES ──────────────────────────────────────────────── -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="services-header reveal">
+        <span class="section-label">What We Do</span>
+        <h2>Comprehensive Moving Solutions</h2>
+        <p>Explore our range of professional moving services designed to meet every need — from residential to
+          commercial relocations.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-card-img">
+            <img src="images/moving-houses-3-1024x683.png" alt="House moving service">
+            <div class="service-overlay"></div>
+          </div>
+          <div class="service-card-body">
+            <h3>House & Apartment Moving</h3>
+            <p>Complete residential moving service including packing, loading, transport, and unpacking at your new
+              home.</p>
+            <a href="#" class="service-link">Learn more <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-card-img">
+            <img src="images/office-relocation-1-1024x683.png" alt="Office relocation service">
+            <div class="service-overlay"></div>
+          </div>
+          <div class="service-card-body">
+            <h3>Office Relocation</h3>
+            <p>Minimize downtime with our organized office moving service. We handle IT equipment, furniture, and files
+              with precision.</p>
+            <a href="#" class="service-link">Learn more <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-card-img">
+            <img src="images/furniture-packing-and-unpacking-3-1024x683.png" alt="Packing and unpacking service">
+            <div class="service-overlay"></div>
+          </div>
+          <div class="service-card-body">
+            <h3>Packing & Unpacking</h3>
+            <p>Professional packing with premium materials to protect your valuables during transit. We unpack at
+              destination too.</p>
+            <a href="#" class="service-link">Learn more <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-card-img">
+            <img src="images/furniture-installation-1-1024x683.png" alt="Furniture installation service">
+            <div class="service-overlay"></div>
+          </div>
+          <div class="service-card-body">
+            <h3>Furniture Installation</h3>
+            <p>Expert assembly and installation of all furniture types. We disassemble at origin and reassemble at your
+              new location.</p>
+            <a href="#" class="service-link">Learn more <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-card-img">
+            <img src="images/furniture-storage-services-3-1024x683.png" alt="Storage services">
+            <div class="service-overlay"></div>
+          </div>
+          <div class="service-card-body">
+            <h3>Storage Services</h3>
+            <p>Secure, climate-controlled storage facilities for short or long-term needs. Your belongings are safe with
+              us.</p>
+            <a href="#" class="service-link">Learn more <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-card-img">
+            <img src="images/villa-transfer-1.png" alt="Villa transfer service">
+            <div class="service-overlay"></div>
+          </div>
+          <div class="service-card-body">
+            <h3>Villa Transfer</h3>
+            <p>Specialized villa moving service for large households. We handle heavy furniture, garden items, and
+              delicate décor.</p>
+            <a href="#" class="service-link">Learn more <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PARALLAX CTA ──────────────────────────────────────────── -->
+  <section class="parallax-cta">
+    <div class="parallax-cta-bg">
+      <img src="images/people-working-in-warehouse-e1670342042805.jpg" alt="Warehouse workers">
+    </div>
+    <div class="parallax-cta-overlay"></div>
+    <div class="container">
+      <div class="reveal">
+        <h2>Your Journey Starts Here</h2>
+        <a href="tel:0505878832" class="cta-phone">CALL NOW: 050 587 8832</a>
+        <p>Get a free estimate for your move. We offer competitive pricing with no hidden fees.</p>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+          <a href="https://wa.me/9710505878832" target="_blank" rel="noopener" class="btn btn-gold">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp Now
+          </a>
+          <a href="tel:0505878832" class="btn btn-outline">
+            <i class="fa fa-phone"></i> Call Us
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── STATS ─────────────────────────────────────────────────── -->
+  <section class="stats" id="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stats-text reveal">
+          <span class="section-label">Our Impact</span>
+          <h2>Key Metrics of Company's Achievements</h2>
+          <p>From efficient relocations to customer satisfaction and service expansion, our key metrics highlight our
+            commitment to providing exceptional moving services across all seven Emirates.</p>
+          <a href="#contact" class="btn btn-navy">More Details <i class="fa fa-arrow-right"></i></a>
+        </div>
+        <div class="stats-numbers reveal">
+          <div class="stat-item">
+            <div class="stat-number">25<span>%</span></div>
+            <div class="stat-label">Customer Growth</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">25K<span>+</span></div>
+            <div class="stat-label">Moves Completed</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">90<span>%</span></div>
+            <div class="stat-label">Satisfaction Rate</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">3<span>x</span></div>
+            <div class="stat-label">Customer Referrals</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── GALLERY ───────────────────────────────────────────────── -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="gallery-header reveal">
+        <span class="section-label">Our Work</span>
+        <h2>Reliable Moving & Packing Solutions</h2>
+        <p>See our professional team in action — delivering excellence on every job.</p>
+      </div>
+      <div class="gallery-grid reveal">
+        <div class="gallery-item">
+          <img src="images/abu-dhabi-furniture-moving-1-1024x683.png" alt="Abu Dhabi furniture moving">
+        </div>
+        <div class="gallery-item">
+          <img src="images/sharjah-furniture-moving-1-1024x683.png" alt="Sharjah furniture moving">
+        </div>
+        <div class="gallery-item">
+          <img src="images/dubai-furniture-moving-1-1024x683.png" alt="Dubai furniture moving">
+        </div>
+        <div class="gallery-item">
+          <img src="images/ajman-furniture-moving-2-1024x683.png" alt="Ajman furniture moving">
+        </div>
+        <div class="gallery-item">
+          <img src="images/al-ain-furniture-moving-3-1024x683.png" alt="Al Ain furniture moving">
+        </div>
+        <div class="gallery-item">
+          <img src="images/fujairah-furniture-moving-1-1024x683.png" alt="Fujairah furniture moving">
+        </div>
+        <div class="gallery-item">
+          <img src="images/abu-dhabi-furniture-moving-3-1024x683.png" alt="Abu Dhabi moving team">
+        </div>
+        <div class="gallery-item">
+          <img src="images/ajman-furniture-moving-3-1024x683.png" alt="Ajman moving service">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CEO MESSAGE ───────────────────────────────────────────── -->
+  <section class="ceo" id="ceo">
+    <div class="container">
+      <div class="ceo-grid">
+        <div class="ceo-image reveal">
+          <div class="ceo-image-main">
+            <img src="images/Team-2.jpg" alt="Al Nasar Movers Team">
+          </div>
+          <div class="ceo-image-accent">
+            <img src="images/Team-6.jpg" alt="Our team at work">
+          </div>
+        </div>
+        <div class="ceo-content reveal">
+          <span class="section-label">Leadership</span>
+          <h2>A Message from Our CEO</h2>
+          <div class="ceo-name">
+            <span>Mr. Usman Shah</span>
+            <small>— CEO, Al Nasar Movers</small>
+          </div>
+          <div class="ceo-quote">
+            <p>Welcome to Al Nasar Movers! We are committed to providing safe, reliable, and affordable moving services
+              with professionalism and care. Your satisfaction is our priority, and our team is dedicated to making
+              every move smooth and stress-free.</p>
+          </div>
+          <p style="font-weight:700; color:var(--navy); font-size:1.1rem; margin-bottom:2rem;">
+            <em>"We Move, You Relax."</em>
+          </p>
+          <div class="ceo-values">
+            <div class="ceo-value">
+              <i class="fa fa-check-circle"></i>
+              <span>Safety First</span>
+            </div>
+            <div class="ceo-value">
+              <i class="fa fa-check-circle"></i>
+              <span>Affordable Pricing</span>
+            </div>
+            <div class="ceo-value">
+              <i class="fa fa-check-circle"></i>
+              <span>Professional Team</span>
+            </div>
+            <div class="ceo-value">
+              <i class="fa fa-check-circle"></i>
+              <span>Customer First</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA BOX ───────────────────────────────────────────────── -->
+  <section class="cta-box" id="contact">
+    <div class="container">
+      <div class="cta-card reveal">
+        <div class="cta-card-img">
+          <img src="images/mover-in-uniform-looking-at-camera-while-writing-i-2022-11-03-05-22-30-utc.png"
+            alt="Professional mover ready to help">
+        </div>
+        <div class="cta-card-body">
+          <span class="section-label" style="color:var(--gold);">Get Started</span>
+          <h2>Still Unsure?<br>Contact Us for a Free Quote</h2>
+          <p>Schedule a consultation and discover how we can make your move stress-free. Our team will provide a
+            detailed estimate tailored to your needs.</p>
+          <div class="cta-card-rating">
+            <div class="cta-card-stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-stroke"></i>
+            </div>
+            <span>4.5 / 5.0 — Based on 1200+ reviews</span>
+          </div>
+          <div class="cta-card-google">
+            <img src="images/Gugel-Review.png" alt="Google Reviews">
+            <span>Rated Excellent on Google Reviews</span>
+          </div>
+          <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+            <a href="https://wa.me/9710505878832" target="_blank" rel="noopener" class="btn btn-gold">
+              <i class="fa-brands fa-whatsapp"></i> Book Now
+            </a>
+            <a href="tel:0505878832" class="btn btn-outline">
+              <i class="fa fa-phone"></i> Call Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── LOCATIONS ──────────────────────────────────────────────── -->
+  <section class="locations" id="locations">
+    <div class="container">
+      <div class="locations-header reveal">
+        <span class="section-label">We Serve</span>
+        <h2>Moving Services Across All Emirates</h2>
+        <p>Professional furniture movers available in every major city of the United Arab Emirates.</p>
+      </div>
+      <div class="locations-grid reveal">
+        <div class="location-card">
+          <img src="images/abu-dhabi-furniture-moving-1-1024x683.png" alt="Abu Dhabi movers">
+          <div class="location-card-content">
+            <h3>Abu Dhabi</h3>
+            <span>Furniture Moving & Relocation</span>
+          </div>
+        </div>
+        <div class="location-card">
+          <img src="images/dubai-furniture-moving-1-1024x683.png" alt="Dubai movers">
+          <div class="location-card-content">
+            <h3>Dubai</h3>
+            <span>Furniture Moving & Relocation</span>
+          </div>
+        </div>
+        <div class="location-card">
+          <img src="images/sharjah-furniture-moving-1-1024x683.png" alt="Sharjah movers">
+          <div class="location-card-content">
+            <h3>Sharjah</h3>
+            <span>Furniture Moving & Relocation</span>
+          </div>
+        </div>
+        <div class="location-card">
+          <img src="images/ajman-furniture-moving-2-1024x683.png" alt="Ajman movers">
+          <div class="location-card-content">
+            <h3>Ajman</h3>
+            <span>Furniture Moving & Relocation</span>
+          </div>
+        </div>
+        <div class="location-card">
+          <img src="images/al-ain-furniture-moving-3-1024x683.png" alt="Al Ain movers">
+          <div class="location-card-content">
+            <h3>Al Ain</h3>
+            <span>Furniture Moving & Relocation</span>
+          </div>
+        </div>
+        <div class="location-card">
+          <img src="images/fujairah-furniture-moving-1-1024x683.png" alt="Fujairah movers">
+          <div class="location-card-content">
+            <h3>Fujairah</h3>
+            <span>Furniture Moving & Relocation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="navbar-logo" style="margin-bottom:.5rem;">
+            <img src="images/Abu-safi-movers-logo-1.png" alt="Al Nasar Movers" style="height:48px;">
+          </a>
+          <p>We are a dedicated team of moving professionals committed to making your relocation experience seamless and
+            stress-free across the United Arab Emirates.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://wa.me/9710505878832" target="_blank" rel="noopener" aria-label="WhatsApp"><i
+                class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <a href="#">House Moving</a>
+          <a href="#">Office Relocation</a>
+          <a href="#">Packing & Unpacking</a>
+          <a href="#">Furniture Installation</a>
+          <a href="#">Storage Services</a>
+          <a href="#">Villa Transfer</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Locations</h4>
+          <a href="#">Abu Dhabi</a>
+          <a href="#">Dubai</a>
+          <a href="#">Sharjah</a>
+          <a href="#">Ajman</a>
+          <a href="#">Al Ain</a>
+          <a href="#">Fujairah</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="footer-contact-item">
+            <i class="fa fa-location-dot"></i>
+            <span>Mafraq Industrial Area,<br>Abu Dhabi, UAE</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa fa-phone"></i>
+            <span><a href="tel:0505878832" style="color:rgba(255,255,255,.6);">050 587 8832</a></span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa fa-envelope"></i>
+            <span><a href="mailto:support@alnasarmovers.com"
+                style="color:rgba(255,255,255,.6);">support@alnasarmovers.com</a></span>
+          </div>
+          <a href="https://wa.me/9710505878832" target="_blank" rel="noopener" class="btn btn-gold"
+            style="margin-top:1rem; font-size:.82rem; padding:.6rem 1.5rem;">
+            <i class="fa-brands fa-whatsapp"></i> Chat with us
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Al Nasar Movers. All rights reserved.</span>
+        <span>Designed with ❤ in the UAE</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── FLOATING WHATSAPP ─────────────────────────────────────── -->
+  <a id="wa-float" href="https://wa.me/9710505878832" target="_blank" rel="noopener noreferrer"
+    aria-label="Chat on WhatsApp">
+    <span class="wa-pulse"></span>
+    <svg class="wa-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+      <path
+        d="M16 .5C7.44.5.5 7.44.5 16c0 2.74.71 5.41 2.06 7.77L.5 31.5l7.95-2.08A15.44 15.44 0 0 0 16 31.5C24.56 31.5 31.5 24.56 31.5 16S24.56.5 16 .5zm0 28.18a13.6 13.6 0 0 1-6.93-1.9l-.5-.3-5.16 1.35 1.38-5.02-.33-.52A13.63 13.63 0 1 1 16 28.68zm7.47-10.2c-.41-.2-2.41-1.19-2.79-1.32-.37-.14-.64-.2-.91.2-.27.41-1.04 1.32-1.28 1.6-.23.27-.47.3-.88.1-.41-.2-1.74-.64-3.31-2.04-1.22-1.09-2.05-2.44-2.29-2.85-.24-.41-.03-.63.18-.84.18-.18.41-.47.61-.71.2-.24.27-.41.41-.68.14-.27.07-.51-.03-.71-.1-.2-.91-2.2-1.25-3.01-.33-.79-.66-.68-.91-.69h-.78c-.27 0-.71.1-1.08.51-.37.41-1.42 1.39-1.42 3.39s1.46 3.93 1.66 4.2c.2.27 2.88 4.39 6.97 6.16.97.42 1.73.67 2.32.86.97.31 1.86.27 2.56.16.78-.12 2.41-.99 2.75-1.94.34-.96.34-1.78.24-1.95-.1-.17-.37-.27-.78-.47z" />
+    </svg>
+    <span>WhatsApp Us</span>
+  </a>
+
+  <script>
+    // ── Navbar scroll effect ──
+    const nav = document.getElementById('mainNav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // ── Mobile toggle ──
+    const toggle = document.getElementById('navToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    toggle.addEventListener('click', () => {
+      toggle.classList.toggle('active');
+      mobileMenu.classList.toggle('open');
+      document.body.style.overflow = mobileMenu.classList.contains('open') ? 'hidden' : '';
+    });
+
+    // Close mobile menu on link click
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        toggle.classList.remove('active');
+        mobileMenu.classList.remove('open');
+        document.body.style.overflow = '';
+      });
+    });
+
+    // ── Smooth scroll for anchor links ──
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          const navHeight = nav.offsetHeight;
+          const targetTop = target.getBoundingClientRect().top + window.scrollY - navHeight;
+          window.scrollTo({ top: targetTop, behavior: 'smooth' });
+        }
+      });
+    });
+
+    // ── Reveal on scroll ──
+    const reveals = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+    reveals.forEach(el => revealObserver.observe(el));
+
+    // ── Active nav link on scroll ──
+    const sections = document.querySelectorAll('section[id]');
+    window.addEventListener('scroll', () => {
+      const scrollY = window.scrollY + nav.offsetHeight + 100;
+      sections.forEach(section => {
+        const top = section.offsetTop;
+        const height = section.offsetHeight;
+        const id = section.getAttribute('id');
+        const link = document.querySelector(`.nav-links a[href="#${id}"]`);
+        if (link) {
+          if (scrollY >= top && scrollY < top + height) {
+            document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+            link.classList.add('active');
+          }
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>
